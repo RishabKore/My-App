@@ -1,4 +1,3 @@
-
 from app.db import BaseModel
 
 class Book(BaseModel):
@@ -32,4 +31,3 @@ if __name__ == "__main__":
             print(book.title, book.author, book.year)
     else:
         Book.seed()
-
