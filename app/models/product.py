@@ -11,7 +11,7 @@ class Product(BaseModel):
     SEEDS = [
         {
             'name': 'Strawberries',
-            'description': 'Juicy organic strawberries.',
+            'description': 'Juicy strawberries.',
             'price': 4.99,
             'url': 'https://picsum.photos/id/1080/360/200'
         },
